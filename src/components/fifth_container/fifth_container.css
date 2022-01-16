@@ -1,0 +1,143 @@
+.block__fifth__container {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.b_fi_title{
+  width: 50%;
+  height: 58px;
+  margin: 20px;
+  
+  margin-top: 100px;
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 60px;
+  
+  color: #FFAA18;
+  
+}
+
+.b_fi_text{
+  width: 90%;
+  height: 63px;
+  
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 20px;
+  color: #000000;
+}
+
+.b_fi_1_img{
+  width: 234px;
+  height: 233px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.b_fi_1_text{
+  width: 373px;
+  height: 24px;
+  
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: -0.05em;
+  
+  color: #000000;
+}
+
+.b_fi_2_img{
+  width: 234px;
+  height: 233px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.b_fi_2_text{
+width: 297px;
+height: 24px;
+
+font-family: Metropolis;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #000000;
+}
+
+.b_fi_3_img{
+  width: 234px;
+  height: 233px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+.b_fi_3_text{
+width: 296px;
+height: 110px;
+
+font-family: Metropolis;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #000000;
+
+}
+.b_fi_conts{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.b_fi_cont_1{
+  width: 350px;
+  margin: 20px;
+}
+
+.b_fi_cont_2{
+  width: 350px;
+  margin: 20px;
+}
+
+.b_fi_cont_3
+{
+  margin: 20px;
+  width: 350px;
+}
+
+
+@media only screen and (max-width: 1043px) {
+  .b_fi_title{
+    font-size: 6vw;
+  }
+}
