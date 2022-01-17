@@ -1,29 +1,38 @@
 import './Offers.css';
+import firstImage from '../../images/offers-first.png';
+import secondImage from '../../images/offers-second.png';
+import thirdImage from '../../images/offers-third.png';
 
 function Offers (props) {
+	return (
+		<section className='offers'>
 
-    return (
-        <div class="block__fifth__container">
-            <div style={{ backgroundColor: "rgba(255,255,255,0.9"}}>
-                <div class="b_fi_title">Our Offers</div>
-                <div class="b_fi_text">After the complete readiness of the design project,you will receive a full  estimate for the repair and construction work, and you will know for sure:</div>
-                <div class="b_fi_conts">
-                    <div class="b_fi_cont_1">                
-                        {/* <img src={ } class="b_fi_1_img"   alt="" /> */}
-                        <div class="b_fi_1_text">Quality and Cost of Materials</div>
-                    </div>
-                    <div class="b_fi_cont_2">
-                        {/* <img src={ } class="b_fi_2_img"   alt="" /> */}
-                        <div class="b_fi_2_text">Volume and Cost of Work</div>
-                    </div>
-                    <div class="b_fi_cont_3">
-                        {/* <img src={ } class="b_fi_3_img"   alt="" /> */}
-                        <div class="b_fi_3_text">Work Schedule that takes into account all the details of the technologies process.</div>
-                    </div>
-                </div>
-            </div>
-        </div>    
-    )
+			<div className='offers__container'>
+				<h2 className='offers__title'>Our Offers</h2>
+				<div className='offers__text'>After the complete readiness of the design project,you will receive a full  estimate for the repair and construction work, and you will know for sure:</div>
+
+				<div className='offers__list'>
+
+					<div className='offers__item'>                
+						<img className='offers__img' src={firstImage} alt={'Quality Materials'}/>
+						<p className='offers__paragraph'>Quality and Cost of Materials</p>
+					</div>
+
+					<div className='offers__item'>
+						<img className='offers__img' src={secondImage} alt={'Cost of Work'}/>
+						<p className='offers__paragraph'>Volume and Cost of Work</p>
+					</div>
+
+					<div className='offers__item'>
+						<img className='offers__img' src={thirdImage} alt={'Work Schedule'}/>
+						<p className='offers__paragraph'>Work Schedule that takes into account all the details of the technologies process.</p>
+					</div>
+
+				</div>
+			</div>
+
+		</section>    
+	)
 }
 
 export default Offers;
