@@ -6,6 +6,8 @@
   justify-content: center;
   align-items: center;
   background: #222429;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .header__container {
