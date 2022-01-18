@@ -1,0 +1,141 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1320px;
+  text-align: center;
+  background: #222429;
+  margin: 0 auto;
+  padding: 50px 60px 100px 60px;
+}
+
+.projects__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.projects__container::before {
+  position: absolute;
+  content: '';
+  top: -50px;
+  left: calc(50%-333px);
+  width: 666px;
+  height: 692px;
+  background-color: #2D2F35;
+  z-index: 2;
+  clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
+}
+
+.projects__title {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  color: #FFAA18; 
+  margin: 0 auto 60px 0;
+  z-index: 3;
+}
+
+.projects__slider-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.projects__slider-container:hover .projects__arrow {
+  visibility: visible;
+  opacity: .8;
+  transition: all linear .5s;
+}
+
+.projects__slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 2000px;
+}
+
+.projects__cell {
+  width: 400px;
+  height: 400px;
+  margin: 0 40px 0 0;
+}
+
+.projects__img {
+  width: 400px;
+  height: 290px;
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
+  margin-bottom: -7px;
+}
+
+.projects__subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 100px;
+  background-color: #FFF;
+  margin: 0;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #222429;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.projects__arrow {
+  position: relative;
+  display: flex;
+  visibility: hidden;
+  width: 93.5px;
+  height: 93.5px;
+  border: none;
+  border-radius: 50%;
+  opacity: 0;
+  z-index: 4;
+  transition: all linear .5s;
+  cursor: pointer;
+}
+
+.projects__arrow_prev {
+  transform: rotate(180deg);
+  position: absolute;
+  content: '';
+  top: 32%;
+  left: 25px;
+}
+
+.projects__arrow_next {
+  position: absolute;
+  content: '';
+  top: 32%;
+  right: 25px;
+}
+
+@media only screen and (max-width: 1367px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}

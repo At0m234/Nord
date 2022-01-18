@@ -7,15 +7,17 @@ function Header (props) {
   return (
     <header className='header'>
       <div className='header__container'>
-        <img className='header__logo' src={logo}   alt='NORDConstructions' />
+        <a href='#' onClick={() => {window.location.reload()}}>
+          <img className='header__logo' src={logo} alt='NORDConstructions' />
+        </a>
         <div className='header__info'>
           <div className='info__container'>
             <img className='header__image' src={phone} alt='Phone' />
-            <div className='header__text'>+1(206)376-6295</div>
+            <a className='header__text' href='tel:+12063766295'>+1(206)376-6295</a>
           </div>
           <div className='info__container'>
             <img className='header__image' src={email} alt='Email' />        
-            <div className='header__text'>Info@nord.construction</div>
+            <a className='header__text' href='mailto:Info@nord.construction'>Info@nord.construction</a>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import './Offers.css';
-import firstImage from '../../images/offers-first.png';
-import secondImage from '../../images/offers-second.png';
-import thirdImage from '../../images/offers-third.png';
+import offersFirstImage from '../../images/offers-first.png';
+import offersSecondImage from '../../images/offers-second.png';
+import offersThirdImage from '../../images/offers-third.png';
 
 function Offers (props) {
 	return (
@@ -14,17 +14,17 @@ function Offers (props) {
 				<div className='offers__list'>
 
 					<div className='offers__item'>                
-						<img className='offers__img' src={firstImage} alt={'Quality Materials'}/>
+						<img className='offers__img' src={offersFirstImage} alt='Quality Materials'/>
 						<p className='offers__paragraph'>Quality and Cost of Materials</p>
 					</div>
 
 					<div className='offers__item'>
-						<img className='offers__img' src={secondImage} alt={'Cost of Work'}/>
+						<img className='offers__img' src={offersSecondImage} alt='Cost of Work'/>
 						<p className='offers__paragraph'>Volume and Cost of Work</p>
 					</div>
 
 					<div className='offers__item'>
-						<img className='offers__img' src={thirdImage} alt={'Work Schedule'}/>
+						<img className='offers__img' src={offersThirdImage} alt='Work Schedule'/>
 						<p className='offers__paragraph'>Work Schedule that takes into account all the details of the technologies process.</p>
 					</div>
 

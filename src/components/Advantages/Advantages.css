@@ -24,7 +24,7 @@
   top: 0;
   left: calc(50% - 333px);
   width: 666px;
-  height: 886px;
+  height: 901px;
   clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
 }
 
