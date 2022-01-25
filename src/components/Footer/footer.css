@@ -3,9 +3,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1210px;
+  max-width: 1440px;
   margin: -70px auto 0 auto;
-  padding: 0 115px;
 }
   
 .footer__container {
@@ -13,8 +12,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 1280px;
+  width: 95%;
+  max-width: 1180px;
+  padding: 0;
   background: transparent;
 }  
 
@@ -62,4 +62,22 @@
   align-items: center;
   width: 50px;
   height: 50px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .footer {
+    margin-top: -175px;
+  }
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    margin: 20px 0;
+  }
+
+  .footer__nav {
+    max-width: 310px;
+  }
 }

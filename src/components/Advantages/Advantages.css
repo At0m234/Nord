@@ -11,7 +11,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 95%;
   max-width: 1280px;
   padding: 75px 0;
 }
@@ -24,7 +24,7 @@
   top: 0;
   left: calc(50% - 333px);
   width: 666px;
-  height: 901px;
+  height: 100%;
   clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
 }
 
@@ -95,10 +95,86 @@
   font-size: 24px;
   line-height: 40px;
   color: #fff;
-  margin: 0 auto 0 25px;
+  margin: 0 auto 0 0;
 }
 
+@media screen and (max-width: 663px) {
+  .advantages__container::before {
+    display: none;
+  }
+}
 
-@media only screen and (max-width: 1043px) {
+@media screen and (max-width: 580px) {
+  .advantages__title {
+    font-size: 40px;
+    margin-bottom: 50px;
+  } 
+
+  .list__item:before {
+    font-size: 35px;
+  }
+
+  .list__container {
+    margin-left: 40px;
+  }
+
+  .list__subtitle {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
   
+  .list__paragraph {
+    font-size: 20px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .advantages__title {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+
+  .list__item:before {
+    font-size: 30px;
+  }
+
+  .list__container {
+    margin-left: 30px;
+  }
+
+  .list__subtitle {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .list__paragraph {
+    font-size: 14px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .advantages__title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .list__item:before {
+    font-size: 25px;
+  }
+
+  .list__container {
+    margin-left: 30px;
+  }
+
+  .list__subtitle {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .list__paragraph {
+    font-size: 12px;
+    margin-left: 0;
+  }
 }

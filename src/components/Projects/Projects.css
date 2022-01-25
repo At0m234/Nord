@@ -4,11 +4,10 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1320px;
+  max-width: 1440px;
   text-align: center;
   background: #222429;
   margin: 0 auto;
-  padding: 50px 60px 100px 60px;
 }
 
 .projects__container {
@@ -17,17 +16,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 95%;
   max-width: 1280px;
-}
+  padding: 50px 0 100px 0;
+} 
 
 .projects__container::before {
   position: absolute;
   content: '';
-  top: -50px;
+  top: 0;
   left: calc(50%-333px);
   width: 666px;
-  height: 692px;
+  height: calc((666/1440) * 100vw);
+  max-height: 694px;
   background-color: #2D2F35;
   z-index: 2;
   clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
@@ -49,24 +50,27 @@
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  width: 100%;
+  width: 95%;
   max-width: 1280px;
-  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
   z-index: 3;
 }
 
-.projects__slider-container:hover .projects__arrow {
+/* .projects__slider-container:hover .projects__arrow {
   visibility: visible;
   opacity: .8;
   transition: all linear .5s;
-}
+} */
 
 .projects__slider {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: nowrap;
-  width: 2000px;
+  overflow-x: scroll;
+  max-width: 2000px;
+  width: 95%;
 }
 
 .projects__cell {
@@ -132,10 +136,70 @@
   right: 25px;
 }
 
-@media only screen and (max-width: 1367px) {
+@media screen and (max-width: 1340px) {
+  .projects__slider-container {
+    overflow-x: scroll;
+  }
+
+  .projects__container::before {
+    display: none;
+  }
+
+  .projects__cell {
+    width: 350px;
+    height: 350px;
+    margin: 0 30px 0 0;
+  }
+
+  .projects__img {
+    width: 350px;
+    height: 250px;
+  }
+
+  .projects__subtitle {
+    width: 330px;
+    font-size: 16px;
+    padding-left: 20px;
+  }
 
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
+  .projects__container::before {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 620px) {
+  .projects__slider-container {
+    overflow-x: scroll;
+    max-width: 320px;
+  }
+
+  .projects__slider {
+    width: 320px;
+    overflow-x: scroll;
+
+  }
+
+  .projects__title {
+    font-size: 40px;
+  }
+
+  .projects__cell {
+    width: 280px;
+    height: 280px;
+    margin: 0 20px 0 0;
+  }
+
+  .projects__img {
+    width: 280px;
+    height: 180px;
+  }
+
+  .projects__subtitle {
+    width: 270px;
+    font-size: 16px;
+    padding-left: 10px;
+  }
 }

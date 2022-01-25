@@ -31,13 +31,13 @@ function ContactUs (props) {
 
 				</div>
 
-				<form className='contact-us__form'>
+				{/* <form className='contact-us__form'>
 					<input className='contact-us__form-name' type='text' placeholder='Name' required/>
 					<input className='contact-us__form-phone' type='number' placeholder='Phone'/>
 					<input className='contact-us__form-email' type='email' placeholder='Email Address' required/>
 					<textarea className='contact-us__form-message' type='text' placeholder='Message' required/>
 					<button className='contact-us__form-submit' type='submit' disabled>SUBMIT</button>
-				</form>
+				</form> */}
 
 			</div>
 		</section>  

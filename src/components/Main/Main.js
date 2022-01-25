@@ -1,4 +1,5 @@
 
+import './Main.css'
 import Intro from "../Intro/Intro";
 import AboutUs from "../AboutUs/AboutUs";
 import Advantages from "../Advantages/Advantages";
