@@ -39,7 +39,9 @@
   display: flex;
   flex-direction: column;
   width: 33%;
-  max-width: 300px;
+  max-width: 333px;
+  margin: 0;
+  padding: 0 0 0 20px;
 }
 
 .services__list:nth-of-type(2) {
@@ -72,23 +74,22 @@
   font-family: Metropolis;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 40px;
   color: #FFAA18;
   margin: 0 0 18px 0;
-  min-height: 85px;
-  align-content: center;
-  justify-content: center;
+  text-align: left;
 }
 
 .services__paragraph {
   font-family: Metropolis;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 24px;
+  line-height: 40px;
   color: #222429;
   margin: 0 0 46px 0;
   text-align: left;
+  overflow-wrap: break-word;
 }
 
 .services__stripe {
@@ -125,7 +126,7 @@
   }
 
   .services__container {
-    margin: 0 20px 0 0;
+    margin: 0 40px 40px 0;
   }
 
   .services-item {
@@ -138,6 +139,7 @@
   }
 
   .services__subtitle {
+    text-align: left;
     font-size: 30px;
   }
 
@@ -182,7 +184,7 @@
   }
 
   .services__subtitle {
-    font-size: 30px;
+    font-size: 27px;
   }
 
   .services__paragraph {

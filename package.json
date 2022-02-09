@@ -18,8 +18,8 @@
     "build": "rimraf build && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "react-scripts build & firebase deploy",
-    "deploygh": "react-scripts build & gh-pages -d build"
+    "deploy": "rimraf build && react-scripts build && firebase deploy",
+    "deploygh": "rimraf build && react-scripts build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

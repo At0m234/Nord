@@ -9,8 +9,9 @@
 
 .about-us__content {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 95%;
   max-width: 1280px;
   padding: 50px 0;
@@ -19,8 +20,9 @@
 .about-us__container {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  max-width: 550px;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
 }
 
 .about-us__title {
@@ -29,26 +31,28 @@
   font-weight: 800;
   font-size: 60px;
   color: #FFAA18;
-  margin: 0;
+  margin: 0 auto 40px auto;
 }
 
 .about-us__subtitle {
   font-family: Metropolis;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 40px;
   color: #222429;
   margin: 0 0 40px 0;
+  text-align: center;
 }
 
 .about-us__text {
   font-family: Metropolis;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 40px;
   color: #222429;
   margin: 0;
+  text-align: center;
 }
 
 .about-us__text:nth-of-type(1) {
@@ -88,8 +92,8 @@
   }
 
   .about-us__text {
-    font-size: 12px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 40px;
   }
 
   .about-us__text:nth-of-type(1) {

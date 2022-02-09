@@ -12,10 +12,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/intro_bg.jpg');
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: contain;
+  text-align: center;
   width: 100%;
   max-width: 1440px;
   height: calc(800 / 1440 * (100vw));
@@ -26,8 +28,7 @@
   display: flex;
   flex-direction: column;
   max-width: 1280px;
-  padding-top: 280px;
-  padding-left: 90px;
+  padding-top: 0;
 }
 
 .intro__title {
@@ -47,15 +48,14 @@
   font-family: Metropolis;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 40px;
   color: #fff;
   margin: 0;
 }
 
 @media screen and (max-width : 850px) {
   .intro__text {
-    padding-left: 45px;
-    padding-top: calc(0.1 * (100vw));
+    padding-top: calc(0.05 * (100vw));
   }
 
   .intro__title {
@@ -70,17 +70,17 @@
 
 @media screen and (max-width : 700px) {
   .intro__title {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .intro__subtitle {
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width : 450px) {
   .intro__text {
-    padding-top: calc(0.1 * (100vw));
+    padding-top: calc(0.05 * (100vw));
   }
   
   .intro__title {

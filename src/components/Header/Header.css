@@ -80,10 +80,6 @@
 }
 
 @media screen and (max-width : 768px) {
-  .header__container {
-    flex-direction: column;
-  }
-
   .header__logo {
     margin: 20px 0;
   }
@@ -98,5 +94,11 @@
 
   .info__container:nth-of-type(1) {
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width : 500px) {
+  .header__container {
+    flex-direction: column;
   }
 }
