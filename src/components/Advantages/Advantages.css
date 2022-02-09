@@ -57,21 +57,6 @@
   z-index: 3;
 }
 
-.list__item:before {
-  position: absolute;
-	content: '0' counter(num); 
-	counter-increment: num;
-	display: inline-block;	
-	top: 0px;
-	left: -35px;
-	width: 20px;    
-  font-family: Metropolis;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  color: #fff;
-}
-
 .list__container {
   display: flex;
   flex-direction: column;
@@ -110,10 +95,6 @@
     margin-bottom: 50px;
   } 
 
-  .list__item:before {
-    font-size: 35px;
-  }
-
   .list__container {
     margin-left: 40px;
   }
@@ -135,9 +116,6 @@
     margin-bottom: 40px;
   }
 
-  .list__item:before {
-    font-size: 30px;
-  }
 
   .list__container {
     margin-left: 30px;
@@ -158,10 +136,6 @@
   .advantages__title {
     font-size: 30px;
     margin-bottom: 30px;
-  }
-
-  .list__item:before {
-    font-size: 25px;
   }
 
   .list__container {
