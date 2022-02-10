@@ -1,11 +1,34 @@
+# ___NordConstruction___
+
+## ___Обзор___
+NordConstruction - адаптивный одностраничный сайт автошколы, созданный по макету из Figma, при помощи HTML, CSS, React.
+
+Сайт оптимизирован под разрешения экранов от 320px до бесконечности. При вёрстке использован подход Desktop First.
+
+Именование классов по БЭМ Nested.
+
+Изобржения доставались из Фигмы и [оптимизировались](https://tinypng.com/), чтобы сайт загружался быстрее.
+___
+## Домен
+* [Сайт](https://nord.construction/)
+___
+## ___GitHub Pages___
+* [Ссылка на gh-pages](https://at0m234.github.io/NordConstruction/)
+___
+
+## ___Available Scripts___
+ - npm install - установка всех пакетов зависимостей из package.json;
+ - npm run build - сборка проекта в папку build;
+ - npm run dev - запуск режима разработчика с горячей перезагрузкой на http://localhost:3000/;
+ - npm run deploy - деплой папки "easydrive-online.ru" на ветку удаленного репозитория gh-pages.
+___
+## ___Technology stack:___
+1. HTML
+2. CSS
+3. React
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
