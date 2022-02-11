@@ -9,7 +9,7 @@ function Projects (props) {
 		<section className='projects'>
 			<div className='projects__container'>
 
-				<h2 className='projects__title'>Our Latest Projects</h2> 
+				<h2 className='projects__title'>Our Latest Home Remodeling in Seattle</h2> 
 
 				<div className="projects__slider-container">
 					<div className="projects__slider">

@@ -11,22 +11,22 @@ function Advantages (props) {
 
 					<li className='list__item'>
 						<div className='list__container'>
-							<h3 className='list__subtitle'>We Do It All</h3>
-							<p className='list__paragraph'>We offer a wide range of speciality services that other companies simply do not.From a small remodal to a customer built home, we are the specialists for the job.</p>
+							<h3 className='list__subtitle'>We Handle Everything</h3>
+							<p className='list__paragraph'>Nord covers your home remodeling needs from top to bottom. All you have to say is what you want and we’ll make it happen.</p>
 						</div>
 					</li>
 
 					<li className='list__item'>     
 						<div className='list__container'>
-							<h3 className='list__subtitle'>Honest & Reliable</h3>
-							<p className='list__paragraph'>In the process of working with clients, we provide all the necessary information. Our work is transparent.</p>
+							<h3 className='list__subtitle'>Honest, Reliable Contractor</h3>
+							<p className='list__paragraph'>We are your trusted source for all things related to design and construction when it comes to home remodeling. Trust Nord for quality, price, and reliability.</p>
 						</div>
 					</li>
 
 					<li className='list__item'>
 						<div className='list__container'>
-							<h3 className='list__subtitle'>Top-Notch Customer Service</h3>
-							<p className='list__paragraph'>We are ready to provide our clients with the best service.</p>
+							<h3 className='list__subtitle'>Best-in-Class Customer Service</h3>
+							<p className='list__paragraph'>Quality service comes with quality care. We offer best-in-class customer service throughout the entirely of your remodeling project.</p>
 						</div>
 					</li>
 

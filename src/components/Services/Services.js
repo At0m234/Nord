@@ -11,21 +11,21 @@ function Services (props) {
 						<li className='services-item'>
 							<div className='services__container'>
 								<h3 className='services__subtitle'>Kitchen Remodeling</h3>
-								<p className='services__paragraph'>This involves updating or altering the appearance to provide it with a new look.It doesn't change the layout of your space but can include repainting the walls, renewing the cabinets, counters, and floor,or changing the overall design, such as moving from a cottage-style to modern.</p>
+								<p className='services__paragraph'>Get the kitchen of your dreams. From pure modern white to rustic wood and terracotta, we source, design, and install all elements to make your new kitchen perfect.</p>
 							</div>
 						</li>
 
 						<li className='services-item'>
 							<div className='services__container'>
 								<h3 className='services__subtitle'>Bathroom Remodeling</h3>
-								<p className='services__paragraph'>Bathroom remodeling consists more than simply replacing various fixtures in the bathroom. This usually involves a different design layout, relocation of existing fixtures or adding major new	features such as a whirlpool, sauna, steam room, walk in shower, windows other than replacements or skylights.</p>
+								<p className='services__paragraph'>Breathe a sigh of relaxation in your new bathroom, completely remodeled from tile to fixture. Each selected piece is installed with precision, creating an air of balance with style.</p>
 							</div>
 						</li>
 
 						<li className='services-item'>
 							<div className='services__container'>
 								<h3 className='services__subtitle'>Home Remodeling</h3>
-								<p className='services__paragraph'>Remodeling is the process of changing the functionality and the design of an area. It may involve tearing out a wall to expand a bathroom and a kitchen layout so the cabinets, fridge, sink, and range are in different locations. Constructing an addition to your home would also be considered a remodel.</p>
+								<p className='services__paragraph'>Open your space, create new rooms, and change the entire aesthetic of your home with full-service home remodeling where every inch of your home is considered.</p>
 							</div>
 						</li>
 
@@ -36,21 +36,21 @@ function Services (props) {
 						<li className='services-item'>
 							<div className='services__container'>
 								<h3 className='services__subtitle'>HandyMan Services</h3>
-								<p className='services__paragraph'>This involves updating or altering the appearance to provide it with	a new look. It doesn't change the	layout of your space but can include repainting the walls, renewing the cabinets, counters, and floor,or changing the overall design, such as moving from a cottage-style to modern.</p>
+								<p className='services__paragraph'>Maintain your home with skilled professionals who carry years of experience in household care. Plumbing, electric, and more are handled with ease through Nord.</p>
 							</div>
 						</li> 
 
 						<li className='services-item'>
 							<div className='services__container'>
 								<h3 className='services__subtitle'>Attic Finishing</h3>
-								<p className='services__paragraph'>Bathroom remodeling consists more than simply replacing various fixtures in the bathroom. This usually involves a different design layout, relocation of existing fixtures or adding major new features such as a whirlpool, sauna, steam room, walk in shower, windows other than replacements or skylights.</p>
+								<p className='services__paragraph'>Create an entirely new room in your home by finishing the attic. Complete with electric, insulation, heating, and plumbing, this will be the perfect bonus or guest room..</p>
 							</div>
 						</li>
 
 						<li className='services-item'>
 							<div className='services__container'>
 								<h3 className='services__subtitle'>Basement Finishing</h3>
-								<p className='services__paragraph'>Remodeling is the process of changing the functionality and the design of an area. It may involve tearing out a wall to expand a bathroom and a kitchen layout so the cabinets, fridge, sink, and range are in different locations. Constructing an addition to your home would also be considered a remodel.</p>
+								<p className='services__paragraph'>Unlock the full potential of your home with basement finishing. This functional area can maintain its storage purpose while being more of a family-friendly lounge.</p>
 							</div>
 						</li> 
 

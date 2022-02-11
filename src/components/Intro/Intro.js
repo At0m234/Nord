@@ -5,8 +5,8 @@ function Intro (props) {
 		<section className='intro'>
 			<div className='intro__container'>
 				<div className='intro__text'>
-					<h1 className='intro__title' >BUILD YOUR VISIONS <br/><span>CREATING REALITY</span></h1>
-					<h2 className='intro__subtitle'>Professional Remodelling Company based in United States</h2>
+					<h1 className='intro__title'>Making Your Dream Home<br/><span>Into a Reality</span></h1>
+					<h2 className='intro__subtitle'>Crafting your ideal home</h2>
 				</div>
 			</div>
 		</section>
