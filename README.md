@@ -7,19 +7,15 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 ## __Functionality__
 NordConstruction - adaptive single page website of professional remodeler company. The site was created based on a layout from Figma using HTML, CSS, React. The site is optimized for screen resolutions from 320px to infinity. The Desktop First approach was used in the layout. Classes naming by BEM Nested. The images were taken from Figma and [optimized](https://tinypng.com/) to make the site load faster.
-___
+
 ## __Stack__
 ### `HTML`
 
 ### `CSS`
 ### `React`
-___
 
 ## __[View the Site](https://nord.construction/)__
-___
 ## __[GitHub Pages](https://at0m234.github.io/Nord/)__
-___
-
 ## __Available Scripts__
   ### __`npm run install`__
   Installing all dependencies from package.json;
@@ -58,4 +54,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-___
