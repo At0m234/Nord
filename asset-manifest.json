@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Nord/static/css/main.a9b4ece8.chunk.css",
+    "main.js": "/Nord/static/js/main.d5395269.chunk.js",
+    "main.js.map": "/Nord/static/js/main.d5395269.chunk.js.map",
+    "runtime-main.js": "/Nord/static/js/runtime-main.e60b5f6a.js",
+    "runtime-main.js.map": "/Nord/static/js/runtime-main.e60b5f6a.js.map",
+    "static/js/2.780d7123.chunk.js": "/Nord/static/js/2.780d7123.chunk.js",
+    "static/js/2.780d7123.chunk.js.map": "/Nord/static/js/2.780d7123.chunk.js.map",
+    "static/js/3.9417d2b6.chunk.js": "/Nord/static/js/3.9417d2b6.chunk.js",
+    "static/js/3.9417d2b6.chunk.js.map": "/Nord/static/js/3.9417d2b6.chunk.js.map",
+    "index.html": "/Nord/index.html",
+    "static/css/main.a9b4ece8.chunk.css.map": "/Nord/static/css/main.a9b4ece8.chunk.css.map",
+    "static/js/2.780d7123.chunk.js.LICENSE.txt": "/Nord/static/js/2.780d7123.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Nord/static/media/Metropolis-ThinItalic.e0e60000.ttf",
+    "static/media/Services.css": "/Nord/static/media/services__bg.90d1a31f.jpg",
+    "static/media/contactUsEmail.ddd621db.svg": "/Nord/static/media/contactUsEmail.ddd621db.svg",
+    "static/media/contactUsLocation.f1b18ffe.svg": "/Nord/static/media/contactUsLocation.f1b18ffe.svg",
+    "static/media/ContactUs.css": "/Nord/static/media/contactUs_bg.2a90fd02.jpg",
+    "static/media/email.f3576995.svg": "/Nord/static/media/email.f3576995.svg",
+    "static/media/footerFacebook.cdc841c7.svg": "/Nord/static/media/footerFacebook.cdc841c7.svg",
+    "static/media/footerGoogle.ab7cd8cb.svg": "/Nord/static/media/footerGoogle.ab7cd8cb.svg",
+    "static/media/footerInstagram.fd3d7851.svg": "/Nord/static/media/footerInstagram.fd3d7851.svg",
+    "static/media/footerYelp.bee50618.svg": "/Nord/static/media/footerYelp.bee50618.svg",
+    "static/media/Intro.css": "/Nord/static/media/intro_bg.8911ec24.jpg",
+    "static/media/logo.2302d253.svg": "/Nord/static/media/logo.2302d253.svg",
+    "static/media/Offers.css": "/Nord/static/media/offers_bg.f3bca952.jpg",
+    "static/media/phone.d5467b6b.svg": "/Nord/static/media/phone.d5467b6b.svg",
+    "static/media/projectsFirstImage.26e30ab0.jpg": "/Nord/static/media/projectsFirstImage.26e30ab0.jpg",
+    "static/media/projectsSecondImage.cfb032b6.jpg": "/Nord/static/media/projectsSecondImage.cfb032b6.jpg",
+    "static/media/projectsThirdImage.6fcfe932.jpg": "/Nord/static/media/projectsThirdImage.6fcfe932.jpg",
+    "static/media/Reviews.css": "/Nord/static/media/reviewerPhoto.df46f5a4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e60b5f6a.js",
+    "static/js/2.780d7123.chunk.js",
+    "static/css/main.a9b4ece8.chunk.css",
+    "static/js/main.d5395269.chunk.js"
+  ]
+}
