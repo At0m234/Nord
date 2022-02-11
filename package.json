@@ -5,8 +5,8 @@
   "homepage": "https://At0m234.github.io/Nord/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^12.8.3",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.5.0",
     "firebase": "^9.6.6",
     "firebase-cli": "^1.2.0",
     "react": "^17.0.2",
